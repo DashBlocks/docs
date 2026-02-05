@@ -26,7 +26,7 @@ module.exports = {
     'website/javascript',
     'website/return',
     'website/cors',
-    'website/turbowarp-blocks',
+    'website/dash-blocks',
     'website/translate',
     'website/url-parameters',
     'website/scratch-accounts',
