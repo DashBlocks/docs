@@ -13,14 +13,12 @@ module.exports = {
       title: 'Dash Documentation',
       items: [
         {
-          type: 'doc',
-          docId: 'packager/index',
+          href: '/packager/',
           label: 'Packager',
           position: 'left',
         },
         {
-          type: 'doc',
-          docId: 'development/index',
+          href: '/development/',
           label: 'Development',
           position: 'left',
         },
