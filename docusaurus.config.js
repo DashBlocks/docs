@@ -2,10 +2,10 @@
 module.exports = {
   title: 'Dash Documentation',
   url: 'https://dashblocks.github.io',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'Dash',
+  organizationName: 'DashBlocks',
   projectName: 'docs',
   trailingSlash: false,
   themeConfig: {
@@ -13,19 +13,21 @@ module.exports = {
       title: 'Dash Documentation',
       items: [
         {
-          href: '/packager/',
+          type: 'doc',
+          docId: 'packager/index',
           label: 'Packager',
-          position: 'left'
+          position: 'left',
         },
         {
-          href: '/development/',
+          type: 'doc',
+          docId: 'development/index',
           label: 'Development',
-          position: 'left'
+          position: 'left',
         },
         {
           href: 'https://dashblocks.github.io/',
           label: 'Dash',
-          position: 'right'
+          position: 'right',
         },
         {
           href: 'https://github.com/DashBlocks',
@@ -38,7 +40,7 @@ module.exports = {
       // This is all supposed to be public
       appId: '63CQ0IJW9T',
       apiKey: '0e0a2613717b73dfbcfed6c8a549384b',
-      indexName: 'dash'
+      indexName: 'dash',
     },
     colorMode: {
       respectPrefersColorScheme: true,
@@ -54,7 +56,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/docs',
+          routeBasePath: '/',
           editUrl: 'https://github.com/DashBlocks/docs/edit/master/',
           breadcrumbs: false,
         },
