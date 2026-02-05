@@ -4,18 +4,15 @@ title: Intro
 hide_table_of_contents: true
 ---
 
-# TurboWarp Documentation
+# Dash Documentation
 
-[TurboWarp](https://turbowarp.org/) is a mod of Scratch with improved performance, dark mode, addons, and more. This is the place where its extra documentation goes.
+[Dash](https://dashblocks.github.io/) is a mod of [TurboWarp](https://turbowarp.org/) and other mods that adds a JSON category, new blocks, extensions, customization, and other features. This is the place where its extra documentation goes.
 
 Related projects:
 
- - [TurboWarp Desktop](https://desktop.turbowarp.org/)
- - [TurboWarp Packager](https://packager.turbowarp.org/)
- - [TurboWarp Unpackager](https://turbowarp.github.io/unpackager/)
- - [TurboWarp Extension Gallery](https://extensions.turbowarp.org/)
- - [sb3fix](https://turbowarp.github.io/sb3fix/)
- - [sb-downloader](https://forkphorus.github.io/sb-downloader/)
- - [forkphorus](https://forkphorus.github.io/)
+ - [Dash Desktop](https://dashblocks.github.io/desktop.html/)
+ - [Dash Packager](https://dashblocks.github.io/packager/)
+ - [Dash Unpackager](https://dashblocks.github.io/unpackager/)
+ - [Dash Extension Gallery](https://dashblocks.github.io/extensions/)
 
-These pages are [open source](https://github.com/TurboWarp/docs). Contributions are welcome.
+These pages are [open source](https://github.com/DashBlocks/docs). Contributions are welcome.
