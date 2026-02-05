@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 Related projects:
 
- - [Dash Desktop](https://dashblocks.github.io/desktop.html/)
+ - [Dash Desktop](https://dashblocks.github.io/desktop/)
  - [Dash Packager](https://dashblocks.github.io/packager/)
  - [Dash Unpackager](https://dashblocks.github.io/unpackager/)
  - [Dash Extension Gallery](https://dashblocks.github.io/extensions/)
