@@ -37,6 +37,8 @@ These are the acceptible values for type:
 |Scratch.ArgumentType.STRING|Any text|apple, 123, true|
 |Scratch.ArgumentType.NUMBER|Any number|123|
 |Scratch.ArgumentType.BOOLEAN|True or false. This one is special as it tries to prevent users from dropping non-booleans into the input.|true|
+|Scratch.ArgumentType.ARRAY|An array|["item"]|
+|Scratch.ArgumentType.OBJECT|An object|{"key": "value"}|
 |Scratch.ArgumentType.COLOR|A hex color code|#ff4c4c|
 |Scratch.ArgumentType.ANGLE|A direction input. 90 means to the right. Increases counterclockwise. Same as sprite direction.|90, 180|
 |Scratch.ArgumentType.MATRIX|A 5x5 matrix represented in binary| 11101010101... |
@@ -95,7 +97,7 @@ Notice that, although the dropdown displays UPPERCASE in the editor, the block a
 ## Exercises
 
 1. Add a block that does the same thing as the built-in Scratch "join" block. It should take two arguments and produce a new string joining them together. Make sure your block casts the arguments to strings so when someone runs "join ((1 + 2)) ((3 + 4))" they get "37" not "10".
-1. Create a boolean block that takes a number argument and a menu argument with the options "odd" and "even". The block should return whether the given number is either odd or even, as the menu says.
+2. Create a boolean block that takes a number argument and a menu argument with the options "odd" and "even". The block should return whether the given number is either odd or even, as the menu says.
 
 ## Next steps
 
