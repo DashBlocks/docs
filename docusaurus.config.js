@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Dash Documentation',
   url: 'https://dashblocks.github.io',
-  baseUrl: '/docs',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   organizationName: 'Dash',
