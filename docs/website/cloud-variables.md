@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Cloud Variables
 
-TurboWarp has its own cloud variable server independent of Scratch.
+Dash uses TurboWarp's cloud variable server independent of Scratch.
 
 Some things to keep in mind:
 
@@ -23,6 +23,10 @@ Some things to keep in mind:
 ---
 
 ## For bot developers and advanced users {#advanced}
+
+:::info
+The text below is written by TurboWarp contributors.
+:::
 
 We allow and encourage developing bots and custom clients. However, due to persistent abuse, we ask you to follow a few rules. Remember that **this is a free service operated by volunteers.** The CPU to parse messages and the bandwidth to send messages to other users is not free. The information below is applicable to both users and authors of cloud variable libraries.
 
