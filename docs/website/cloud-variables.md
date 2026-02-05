@@ -24,7 +24,7 @@ Some things to keep in mind:
 
 ## For bot developers and advanced users {#advanced}
 
-:::info
+:::note
 The text below is written by TurboWarp contributors.
 :::
 
