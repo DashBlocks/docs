@@ -4,15 +4,9 @@ hide_table_of_contents: true
 
 # Introduction to custom extensions
 
-Custom extensions are a way for you to add new blocks to TurboWarp using JavaScript.
+Custom extensions are a way for you to add new blocks to Dash using JavaScript.
 
 In this tutorial, we will describe how to build custom extensions. The pages can be navigated using the sidebar or links at the bottom of each page. We assume that you read each page in full and do the exercises listed (if any) before going to the next page.
-
-:::info
-**We just rewrote this entire tutorial from the ground up.**
-
-It uses a completely different structure and style. We hope it's easier to follow. There's a good chance there are some errors and omissions in this tutorial. [Let me know what you think](https://scratch.mit.edu/users/GarboMuffin/#comments). Thanks!
-:::
 
 When people refer to "extensions", there are a few things they could be referring to:
 
@@ -28,7 +22,7 @@ We will discuss the difference between sandboxed and unsandboxed extensions at [
 
 ## Compatibility
 
-Custom extensions are not compatible with Scratch. Projects made using custom extensions cannot be uploaded to the Scratch website. They can, however, be packaged using the [TurboWarp Packager](https://packager.turbowarp.org/).
+Custom extensions are not compatible with Scratch. Projects made using custom extensions cannot be uploaded to the Scratch website. They can, however, be packaged using the [Dash Packager](https://dashblocks.github.io/packager/).
 
 ## Prerequisites
 
@@ -46,15 +40,15 @@ We know that some of you will be eager to start sharing your extensions around, 
 
 ## Prepare a development environment
 
-In recent versions of TurboWarp, there are several ways to develop extensions.
+In recent versions of Dash, there are several ways to develop extensions.
 
 ### Files (simplest)
 
-Recent versions of the TurboWarp website and desktop app have an option in the custom extension menu to load extensions either from local files or from copied and pasted JavaScript code. This will be the easiest way to develop extensions as it can be done on any computer with just a text editor.
+Recent versions of the Dash website and desktop app have an option in the custom extension menu to load extensions either from local files or from copied and pasted JavaScript code. This will be the easiest way to develop extensions as it can be done on any computer with just a text editor.
 
 ### Local HTTP Server (recommended)
 
-However, if possible, you should use a local HTTP server that lets TurboWarp fetch your extension from your computer. This speeds up the process because you don't have to select/paste the JavaScript code in TurboWarp every time you make changes. There are a lot of options for installing one of these. If you have Python installed, you already have one:
+However, if possible, you should use a local HTTP server that lets Dash fetch your extension from your computer. This speeds up the process because you don't have to select/paste the JavaScript code in Dash every time you make changes. There are a lot of options for installing one of these. If you have Python installed, you already have one:
 
 ```bash
 cd path/to/where/you/will/store/your/extensions
