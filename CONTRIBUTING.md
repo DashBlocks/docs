@@ -1,1 +1,1 @@
-See https://github.com/DashBlocks/docs#writing-content
+See https://github.com/DashBlocks/docs?tab=readme-ov-file#writing-content
