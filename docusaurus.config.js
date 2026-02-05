@@ -47,7 +47,7 @@ module.exports = {
       // This is all supposed to be public
       appId: '63CQ0IJW9T',
       apiKey: '0e0a2613717b73dfbcfed6c8a549384b',
-      indexName: 'dashblocks',
+      indexName: 'dashblocks_github_io_63cq0ijw9t_pages',
     },
     colorMode: {
       respectPrefersColorScheme: true,
