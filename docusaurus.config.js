@@ -38,7 +38,7 @@ module.exports = {
       // This is all supposed to be public
       appId: '63CQ0IJW9T',
       apiKey: '0e0a2613717b73dfbcfed6c8a549384b',
-      indexName: 'dash',
+      indexName: 'dashblocks',
     },
     colorMode: {
       respectPrefersColorScheme: true,
