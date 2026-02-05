@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Dash Documentation',
-  url: 'https://dashblocks.github.io/docs/',
+  url: 'https://dashblocks.github.io',
   baseUrl: '/docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
