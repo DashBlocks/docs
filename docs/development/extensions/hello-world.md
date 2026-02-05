@@ -82,6 +82,8 @@ These are the acceptable values for blockType:
 |Scratch.BlockType.COMMAND|A block that doesn't report a value|move 10 steps|
 |Scratch.BlockType.REPORTER|A round block that reports a string or number|x position, costume name|
 |Scratch.BlockType.BOOLEAN|A block with pointy edges that reports a boolean (true or false)|mouse down|
+|Scratch.BlockType.ARRAY|A square block that reports an array|position, empty array|
+|Scratch.BlockType.OBJECT|A plus-shaped block that reports an object|empty object|
 |Scratch.BlockType.HAT|A block that starts in response to specific conditions. Discussed later.|when loudness > 10|
 |Scratch.BlockType.EVENT|A block that starts in response exclusively to events. Discussed later.|when this sprite clicked|
 
@@ -95,9 +97,16 @@ While other BlockTypes do exist, they do not work well and will not be discussed
   }
 ```
 
-This defines the function that will run the block with the opcode "hello". In this case, our block is very simple and just returns a string. REPORTER blocks are expected to return a string, number, or boolean, and BOOLEAN blocks are expected to only return a boolean. Note that `null`, `undefined`, lists, and objects are not expected return values for these blocks.
+This defines the function that will run the block with the opcode "hello". In this case, our block is very simple and just returns a string.
 
-When you want to change the extension, simply modify the extension and reload the page. Here's a tip to make your life easier: You can use the `?extension=` URL parameter to load an extension automatically instead of requiring going into the library. For example, if your extension URL is http://localhost:8080/hello-world.js, you could use https://turbowarp.org/editor?extension=http://localhost:8080/hello-world.js to load it automatically.
+- REPORTER blocks are expected to return a string, number, boolean, array, object, or class that represents [custom type](./custom-types).
+- BOOLEAN blocks are expected to only return a boolean.
+- ARRAY blocks are expected to only return an array.
+- OBJECT blocks are expected to only return an object.
+
+Note that `null` and `undefined`, are not expected return values for these blocks.
+
+When you want to change the extension, simply modify the extension and reload the page. Here's a tip to make your life easier: You can use the `?extension=` URL parameter to load an extension automatically instead of requiring going into the library. For example, if your extension URL is http://localhost:8080/hello-world.js, you could use https://dashblocks.github.io/editor?extension=http://localhost:8080/hello-world.js to load it automatically.
 
 If you observe that your changes aren't being applied when you refresh, try your browser's "hard refresh" or "refresh without cache" shortcuts.
 
