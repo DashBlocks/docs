@@ -25,7 +25,7 @@ module.exports = {
     {
       types: ['string'],
       style: {
-        color: '#a31515'
+        color: '#fa4545'
       }
     },
     {
@@ -49,13 +49,13 @@ module.exports = {
     {
       types: ['tag'],
       style: {
-        color: '#800000'
+        color: '#e84c4c'
       }
     },
     {
       types: ['attr-name'],
       style: {
-        color: '#e50000'
+        color: '#f95a5a'
       }
     },
     {
