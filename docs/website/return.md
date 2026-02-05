@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Custom Reporters
 
-TurboWarp now supports custom reporters which lets you use any custom block in your project as a reporter, like the addition block built into Scratch. This is a pretty standard feature in text-based programming languages, but it can be hard to understand initially.
+Dash supports custom reporters which lets you use any custom block in your project as a reporter, like the addition block built into Scratch. This is a pretty standard feature in text-based programming languages, but it can be hard to understand initially.
 
 :::info
 Projects that use this feature cannot be uploaded to the Scratch website.
@@ -31,9 +31,9 @@ Then, create a custom block as you normally would. To make a custom reporter, ju
 
 Once a return block is hit, it functions similarly to "stop this script".
 
-TurboWarp automatically reshapes blocks to what it guesses is the correct shape, but sometimes it guesses wrong. You can always change a block's shape by right clicking on it and then choosing "Changed To Stacked Block" or "Change To Reporter".
+Dash automatically reshapes blocks to what it guesses is the correct shape, but sometimes it guesses wrong. You can always change a block's shape by right clicking on it and then choosing "Changed To Stacked Block" or "Change To Reporter".
 
-Similarly, if all the return blocks in a custom block contain a boolean (true/false) value such as "1 > 2", then the custom block will also be boolean-shaped. This is just a visual helper as any custom reporter can be dropped into any input.
+Similarly, if all the return blocks in a custom block contain a boolean (true/false) value such as "1 > 2", then the custom block will also be boolean-shaped, array ([]) value such as "empty array" - square-shaped (array-shaped), object ({}) value such as "empty object" - plus-shaped (object-shaped). This is just a visual helper as any custom reporter can be dropped into any input.
 
 ## Recursion {#recursion}
 
