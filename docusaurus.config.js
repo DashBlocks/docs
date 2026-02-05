@@ -8,6 +8,15 @@ module.exports = {
   organizationName: 'DashBlocks',
   projectName: 'docs',
   trailingSlash: false,
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '9975DC2323356DF8',
+      },
+    },
+  ],
   themeConfig: {
     navbar: {
       title: 'Dash Documentation',
