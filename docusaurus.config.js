@@ -1,16 +1,16 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'TurboWarp Documentation',
-  url: 'https://docs.turbowarp.org',
-  baseUrl: '/',
+  title: 'Dash Documentation',
+  url: 'https://dashblocks.github.io/docs/',
+  baseUrl: '/docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  organizationName: 'TurboWarp',
+  organizationName: 'Dash',
   projectName: 'docs',
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: 'TurboWarp Documentation',
+      title: 'Dash Documentation',
       items: [
         {
           href: '/packager/',
@@ -23,12 +23,12 @@ module.exports = {
           position: 'left'
         },
         {
-          href: 'https://turbowarp.org/',
-          label: 'TurboWarp',
+          href: 'https://dashblocks.github.io/',
+          label: 'Dash',
           position: 'right'
         },
         {
-          href: 'https://github.com/TurboWarp',
+          href: 'https://github.com/DashBlocks',
           label: 'GitHub',
           position: 'right',
         },
@@ -54,7 +54,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
+          routeBasePath: '/docs',
+          editUrl: 'https://github.com/DashBlocks/docs/edit/master/',
           breadcrumbs: false,
         },
         theme: {
