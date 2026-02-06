@@ -4,7 +4,7 @@ import CodeBlock from '@theme/CodeBlock';
 
 export const ExtensionCode = ({title, children}) => {
   const isBrowser = useIsBrowser();
-  const origin = isBrowser ? location.origin : `https://dashblocks.github.io/docs`;
+  const href = isBrowser ? location.href : `https://dashblocks.github.io/docs`;
   return (
     <div>
       <CodeBlock
@@ -22,7 +22,7 @@ export const ExtensionCode = ({title, children}) => {
                   {/* TODO: Add docs examples to DashBlocks/extensions */}
                   `https://dashblocks.github.io/editor.html?extension=https://dashblocks.github.io/tw-extensions/docs-examples/${title}.js`
                 ) : (
-                  `https://dashblocks.github.io/editor.html?extension=${origin}/example-extensions/${title}.js`
+                  `https://dashblocks.github.io/editor.html?extension=${href}/example-extensions/${title}.js`
                 )
               }
             >
