@@ -3,9 +3,15 @@ slug: /blocks
 hide_table_of_contents: true
 ---
 
-# Dash Blocks
+# Dash Blocks (Extension)
 
 Dash has a section of blocks that allows you to use certain features previously not accessible to Scratch projects.
+
+## How to use {#usage}
+
+Open the extension library by clicking the button in the bottom left of the editor (same place where you find things like "pen"), then choose "Dash Blocks":
+
+![](./assets/dash-blocks-library.png)
 
 ## is compiled? and is Dash? {#is-compiled}
 
