@@ -38,7 +38,7 @@ These are the acceptible values for type:
 |Scratch.ArgumentType.NUMBER|Any number|123|
 |Scratch.ArgumentType.BOOLEAN|True or false. This one is special as it tries to prevent users from dropping non-booleans into the input.|true|
 |Scratch.ArgumentType.ARRAY|An array|[\\"item\\"]|
-|Scratch.ArgumentType.OBJECT|An object|{\\"key\\": \\"value\\"}|
+|Scratch.ArgumentType.OBJECT|An object|\\{\\"key\\": \\"value\\"\\}|
 |Scratch.ArgumentType.COLOR|A hex color code|#ff4c4c|
 |Scratch.ArgumentType.ANGLE|A direction input. 90 means to the right. Increases counterclockwise. Same as sprite direction.|90, 180|
 |Scratch.ArgumentType.MATRIX|A 5x5 matrix represented in binary| 11101010101... |
