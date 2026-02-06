@@ -36,3 +36,17 @@ It's like "mouse down?" but lets you check each individual button. Keep in mind 
  * (0) primary is usually left click
  * (1) middle is usually scroll wheel
  * (2) secondary is usually right click (running this block once will disable right click on the stage)
+
+## Blocks included directly in Dash
+
+### Open website
+
+Opens a website, you can choose it to open in this tab, a new tab or a new window
+
+### Sound blocks
+
+Stop sound, play sound for x seconds, etc.
+
+### Starts/ends with
+
+Checks if a string starts/ends with another string
