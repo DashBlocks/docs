@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import useIsBrowser from '@docusaurus/useIsBrowser';
 import CodeBlock from '@theme/CodeBlock';
 
 export const ExtensionCode = ({title, children}) => {
