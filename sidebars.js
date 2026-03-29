@@ -16,6 +16,7 @@ module.exports = {
         'website/settings/remove-misc-limits',
         'website/settings/infinite-clones',
         'website/settings/warp-timer',
+        'website/settings/cloud-host',
         'website/settings/custom-stage-size',
         'website/settings/disable-compiler'
       ]
