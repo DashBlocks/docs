@@ -12,10 +12,11 @@ module.exports = {
         'website/settings/custom-fps',
         'website/settings/interpolation',
         'website/settings/high-quality-pen',
+        'website/settings/warp-timer',
+        'website/settings/stage-mode',
+        'website/settings/infinite-clones',
         'website/settings/remove-fencing',
         'website/settings/remove-misc-limits',
-        'website/settings/infinite-clones',
-        'website/settings/warp-timer',
         'website/settings/cloud-host',
         'website/settings/custom-stage-size',
         'website/settings/disable-compiler'
