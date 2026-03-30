@@ -48,7 +48,7 @@ Recent versions of the Dash website and desktop app have an option in the custom
 
 ### Local HTTP Server (recommended)
 
-However, if possible, you should use a local HTTP server that lets Dash fetch your extension from your computer. This speeds up the process because you don't have to select/paste the JavaScript code in Dash every time you make changes. There are a lot of options for installing one of these. If you have Python installed, you already have one:
+However, if possible, you should use a local HTTP server that lets Dash fetch your extension from your computer. This speeds up the process because you don't have to select/paste the JavaScript code in Dash every time you make changes. There are a lot of options for installing one of these. If you have Python installed, you already have one. Run it in your terminal:
 
 ```bash
 cd path/to/where/you/will/store/your/extensions
