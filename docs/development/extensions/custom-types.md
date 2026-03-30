@@ -24,20 +24,58 @@ This is a JavaScript class. `customId` field declared with unique ID of custom t
 ```js
   toMonitorContent () {
     let el = document.createElement("span");
-    el.textContent = "Visual representation of custom type in result of block execution";
+    el.textContent = "Custom type representation in variable monitor";
     return el;
   }
 ```
 
-Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) representing the content of custom type in result of block execution.
+Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) representing the content of custom type in variable monitor.
 
 ## toReporterContent()
 
+```js
+  toReporterContent () {
+    let el = document.createElement("span");
+    el.textContent = "Custom type representation in result of block execution";
+    return el;
+  }
+```
+
+Returns an Element representing the content of custom type in result of block execution.
+
 ## toReporterJSONItem()
+
+```js
+  toReporterJSONItem () {
+    let el = document.createElement("i");
+    el.textContent = "nested custom type";
+    return el;
+  }
+```
+
+Returns an Element representing the content of custom type as element of an array or object inside the result of block execution.
 
 ## toListItem()
 
+```js
+  toListItem () {
+    let el = document.createElement("i");
+    el.textContent = "nested custom type";
+    return el;
+  }
+```
+
+Returns an Element representing the content of custom type as element of a list monitor, an array or object displayed in the variable monitor.
+
 ## toListEditor()
+
+```js
+  toListEditor () {
+    return "nested custom type";
+  }
+```
+
+Returns a string representing the content of custom type as editable element of a list monitor, an array or object displayed in the variable monitor.
 
 ## Registering serializer and deserializer
 
