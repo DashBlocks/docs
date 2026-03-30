@@ -99,7 +99,7 @@ While other BlockTypes do exist, they do not work well and will not be discussed
 
 This defines the function that will run the block with the opcode "hello". In this case, our block is very simple and just returns a string.
 
-- REPORTER blocks are expected to return a string, number, boolean, array, object, or class that represents [custom type](./custom-types).
+- REPORTER blocks are expected to return a string, number, boolean, array, object, or class instance that represents [custom type](./custom-types).
 - BOOLEAN blocks are expected to only return a boolean.
 - ARRAY blocks are expected to only return an array.
 - OBJECT blocks are expected to only return an object.
