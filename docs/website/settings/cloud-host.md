@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 # Custom Cloud Variable Server
 
-The "Custom Cloud Variable Server" option lets you change the cloud variable server that Dash will connect to, for example:
+This option lets you change the cloud variable server that Dash will connect to, for example:
 
 `wss://clouddata.turbowarp.org`
 
