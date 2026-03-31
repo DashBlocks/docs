@@ -100,7 +100,7 @@ This function will be called when Dash tries to represent the content of custom 
 // ...
 ```
 
-This registers the serializer and deserializer of custom type.
+This registers the serializer and deserializer of custom type. `Scratch.vm.runtime.registerSerializer` is a shortcut of `Scratch.vm.runtime.typesSerializeManager.registerSerializer`.
 - The first argument is a ID. It must be identical to the custom type ID.
 - The second argument is a serializer function. This also can be a [generator function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*).
 - The third argument is a deserializer function. This also can be a generator function.
