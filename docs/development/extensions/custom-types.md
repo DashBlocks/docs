@@ -29,7 +29,7 @@ This is a JavaScript class. `customId` field declared with unique ID of custom t
   }
 ```
 
-Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) representing the content of custom type in variable monitor.
+This function will be called when Dash tries to represent the content of custom type in variable monitor. It must return an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element).
 
 ## toReporterContent()
 
@@ -41,7 +41,7 @@ Returns an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element) r
   }
 ```
 
-Returns an Element representing the content of custom type in result of block execution.
+This function will be called when Dash tries to represent the content of custom type in result of block execution. It must return an Element.
 
 ## toReporterJSONItem()
 
@@ -53,7 +53,7 @@ Returns an Element representing the content of custom type in result of block ex
   }
 ```
 
-Returns an Element representing the content of custom type as element of an array or object inside the result of block execution.
+This function will be called when Dash tries to represent the content of custom type as element of an array or object inside the result of block execution. It must return an Element.
 
 ## toListItem()
 
@@ -65,7 +65,7 @@ Returns an Element representing the content of custom type as element of an arra
   }
 ```
 
-Returns an Element representing the content of custom type as element of a list monitor, an array or object displayed in the variable monitor.
+This function will be called when Dash tries to represent the content of custom type as element of a list monitor, an array or object displayed in the variable monitor. It must return an Element.
 
 ## toListEditor()
 
@@ -75,13 +75,13 @@ Returns an Element representing the content of custom type as element of a list 
   }
 ```
 
-Returns a string representing the content of custom type as editable element of a list monitor, an array or object displayed in the variable monitor.
+This function will be called when Dash tries to represent the content of custom type as editable element of a list monitor, an array or object displayed in the variable monitor. It must return a string. We suggest making it return the same text content as the toListItem() function.
 
 ## Registering serializer and deserializer
 
 ```js
 // ...
-  class MyExtension {
+  class ExtensionWithCustomType {
     constructor () {
       Scratch.vm.runtime.registerSerializer(
         "extensionwithcustomtype_customtype",
