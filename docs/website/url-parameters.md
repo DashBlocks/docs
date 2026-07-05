@@ -16,7 +16,7 @@ Dash will automatically store settings such as turbo mode, custom FPS, high qual
 
 The `username` option controls the value of the username block.
 
-https://dashblocks.github.io/#443603478?username=ExampleUsername
+https://dashblocks.org/#s443603478?username=ExampleUsername
 
 ## Custom extensions {#extension}
 
@@ -28,19 +28,19 @@ The `extension` option loads a custom extension from a URL. See [Custom Extensio
 
 Controls the maximum relative scale of the player when in fullscreen mode.
 
-https://dashblocks.github.io/fullscreen?scale=2
+https://dashblocks.org/fullscreen?scale=2
 -->
 
 ## Disable compiler {#nocompile}
 
 The `nocompile` option turns off the compiler. You probably shouldn't enable this.
 
-https://dashblocks.github.io/?nocompile
+https://dashblocks.org/?nocompile
 
 ## Project URL {#project_url}
 
 The `project_url` option tells Dash to download project data from an arbitrary URL. Do not use together with a regular project ID.
 
-https://dashblocks.github.io/?project_url=dashblocks.github.io/packager/example.sb3
+https://dashblocks.org/?project_url=dashblocks.org/packager/example.sb3
 
 https:// is implied if you don't include a protocol. http:// URLs generally will not work for security reasons. Note that the URL needs to be a direct download and must support CORS (`Access-Control-Allow-Origin: *`). [GitHub Pages](https://pages.github.com/) will do this automatically and is known to work well.

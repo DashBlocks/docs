@@ -1,6 +1,6 @@
 # Dash Docs
 
-https://dashblocks.github.io/docs/
+https://dashblocks.org/docs/
 
 This repository contains documentation for Dash and TurboWarp.
 
@@ -10,7 +10,7 @@ If you found a typo or have a suggestion to improve the pages, the easiest way t
 
 Alternatively, you can submit a pull request yourself containing a fix. The easiest way to edit a page is:
 
-1. Open the website, https://dashblocks.github.io/docs/
+1. Open the website, https://dashblocks.org/docs/
 2. Find the page you want to edit
 3. Click "Edit this page" at the bottom
 4. Sign in with a GitHub account

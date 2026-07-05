@@ -6,7 +6,7 @@ sidebar_label: Offline Packager
 
 # Offline Packager
 
-There are ways to use the [Dash Packager](https://dashblocks.github.io/packager/) offline which can be useful in various circumstances (for example, perhaps your school blocks dashblocks.github.io).
+There are ways to use the [Dash Packager](https://dashblocks.org/packager/) offline which can be useful in various circumstances (for example, perhaps your school blocks dashblocks.github.io).
 
 We aim to update the offline packager about once a month.
 
@@ -14,6 +14,6 @@ Large assets such as Electron, NW.js, or WKWebView executables are *not* include
 
 ## Desktop App {#desktop}
 
-You can download [Dash Desktop](https://dashblocks.github.io/desktop.html/), which includes an offline version of the packager. You can access it by pressing the "File" button in the top left corner then select the packager.
+You can download [Dash Desktop](https://dashblocks.org/desktop.html/), which includes an offline version of the packager. You can access it by pressing the "File" button in the top left corner then select the packager.
 
 The built-in packager will automatically load the project you have open in the editor.

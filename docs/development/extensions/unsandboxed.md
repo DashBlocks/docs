@@ -12,12 +12,12 @@ Unsandboxed extensions run as plain `<script>` tags in the main window rather th
 
 To protect users from malicious extensions, extensions loaded from URLs will only run unsandboxed if their URL begins with one of these *exactly*:
 
- - `https://dashblocks.github.io/extensions/`
+ - `https://dashblocks.org/extensions/`
  - `https://extensions.turbowarp.org/`
  - `https://extensions.penguinmod.com/`
  - `http://localhost:8000/`
 
-As you don't have control over dashblocks.github.io/extensions, you will have to use the latter option. For this, configure your local HTTP server to run on port 8000 instead of what you've been using so far.
+As you don't have control over dashblocks.org/extensions, you will have to use the latter option. For this, configure your local HTTP server to run on port 8000 instead of what you've been using so far.
 
 When manually loading an extension from a file or JavaScript source code, there is an option to load the extension without the sandbox. This option to force an extension to run unsandboxed does not exist when using URLs due to security concerns.
 
@@ -177,7 +177,7 @@ If you're using the `vm`, `runtime` or `Cast` APIs a lot, common practise is to 
 
 ## Permissioned APIs
 
-Whereas sandboxed extensions are free to use APIs such as fetch() as they please, unsandboxed extensions should instead ask for permission before making a request to any remote service. This gives the user control over their privacy. While there are no technical measures enforcing this at runtime, it is required for all extensions on [dashblocks.github.io/extensions](https://dashblocks.github.io/extensions).
+Whereas sandboxed extensions are free to use APIs such as fetch() as they please, unsandboxed extensions should instead ask for permission before making a request to any remote service. This gives the user control over their privacy. While there are no technical measures enforcing this at runtime, it is required for all extensions on [dashblocks.org/extensions](https://dashblocks.org/extensions).
 
 Requests to some popular services such as [GitHub Pages](https://pages.github.com/) or [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) may be automatically approved, while requests to other random websites may show a prompt to the user. You shouldn't make any assumptions about this, and your code needs to ensure that it can gracefully handle the user rejecting the prompt (the extension should behave the same as it does when there is no internet connection).
 

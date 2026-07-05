@@ -8,12 +8,12 @@ hide_table_of_contents: true
 You can use Dash to embed a Scratch project in your website using an `<iframe>`. For the best experience, use this template:
 
 ```html
-<iframe src="https://dashblocks.github.io/embed.html#414716080" width="482" height="412" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="" style="color-scheme: auto"></iframe>
+<iframe src="https://dashblocks.org/embed.html#s414716080" width="482" height="412" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="" style="color-scheme: auto"></iframe>
 ```
 
 You should change these attributes appropriately:
 
- - `src="https://dashblocks.github.io/embed.html#414716080"` contains the ID of the project you want to embed. You should change this. We're using 414716080 as an example, but you can replace that number with any other project ID. You can also include other URL paramters as listed below.
+ - `src="https://dashblocks.org/embed.html#s414716080"` contains the ID of the scratch project you want to embed. You should change this. We're using 414716080 as an example, but you can replace that number with any other project ID. You can also include other URL paramters as listed below.
  - `width="482" height="412"` defines the size of the embed. The player will automatically resize to whatever you specify here, so you can change the numbers. The border around the stage takes two pixels of width and height, and the controls take an extra 50 pixels of height. Thus, to get a 480x360 stage, you would use 482 and 412.
  - Optionally, you may want to add `loading="lazy"` to the attributes which lets the browser wait to load the iframe until the user scrolls closer to it. This can improve performance if the embed is pretty far down the page and doesn't need to be loaded right away.
 
@@ -27,11 +27,11 @@ The rest of the attributes should not be changed. Here's what they do if you wer
 
 Here's what that example embed looks like in action:
 
-<iframe src="https://dashblocks.github.io/embed.html#414716080" width="482" height="412" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="" style={{colorScheme: "auto"}}></iframe>
+<iframe src="https://dashblocks.org/embed.html#s414716080" width="482" height="412" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="" style={{colorScheme: "auto"}}></iframe>
 
 ## Unshared projects can't be embedded {#unshared-projects}
 
-Unshared projects [can not be shown in embeds](unshared-projects). Make sure the projects you embed are shared or use the [Dash Packager](https://dashblocks.github.io/packager/) instead.
+Unshared projects [can not be shown in embeds](unshared-projects). Make sure the projects you embed are shared or use the [Dash Packager](https://dashblocks.org/packager/) instead.
 
 ## URL parameters {#url-parameters}
 
@@ -41,7 +41,7 @@ There are also some special parameters only available in embeds:
 
 ### Autoplay {#autoplay}
 
-Embeds support the `autoplay` parameter, which will automatically hit the green flag when the project loads. For example: https://dashblocks.github.io/embed.html?autoplay#15832807
+Embeds support the `autoplay` parameter, which will automatically hit the green flag when the project loads. For example: https://dashblocks.org/embed.html?autoplay#s15832807
 
 Note that sound blocks may not work until the user interacts with the project (for example, by clicking). This is a restriction imposed by browsers. There is nothing Dash can do to work around this.
 

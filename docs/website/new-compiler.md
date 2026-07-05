@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 The compiler is the part of Dash that converts projects to JavaScript. On September 20, 2025, TurboWarp released a new compiler that is better at analyzing the scripts inside projects to generate even faster JavaScript, and then we updated the Dash compiler by adding the latest changes from the TurboWarp compiler and changing the compiled primitives for our blocks.
 
-This is the largest single change we've ever made. We've tried to test it thoroughly, but **it's quite likely there are still a few more bugs**. You should report broken projects at [the usual place](https://scratch.mit.edu/users/GarboMuffin/#comments). If your project is broken, you can use https://dashblocks.github.io/old-compiler/ instead until we fix the bug in the new compiler.
+This is the largest single change we've ever made. We've tried to test it thoroughly, but **it's quite likely there are still a few more bugs**. You should report broken projects at [the usual place](https://scratch.mit.edu/users/GarboMuffin/#comments). If your project is broken, you can use https://dashblocks.org/old-compiler/ instead until we fix the bug in the new compiler.
 
 :::warning
 The new compiler breaks a small handful of custom extensions. See the [extensions](#extensions) section below for details and workarounds.
@@ -72,9 +72,9 @@ Unfortunately, the warp timer breaks many of the assumptions that the new compil
 
 All extensions included in the Dash extension list will work the same, and a vast majority of custom extensions will also continue to work the same.
 
-A small handful of custom extensions use an API called `i_will_not_ask_for_help_when_these_break` to integrate more directly with the compiler. We gave this API that crazy name because we knew it was going to break at some point, and we didn't want a small handful of extensions to restrict us from being able to change the compiler's internals when needed. If your project requires these extensions, you can use https://dashblocks.github.io/old-compiler/ instead until extensions become compatible.
+A small handful of custom extensions use an API called `i_will_not_ask_for_help_when_these_break` to integrate more directly with the compiler. We gave this API that crazy name because we knew it was going to break at some point, and we didn't want a small handful of extensions to restrict us from being able to change the compiler's internals when needed. If your project requires these extensions, you can use https://dashblocks.org/old-compiler/ instead until extensions become compatible.
 
-If you also need to package your project, you can use https://dashblocks.github.io/packager-legacy/.
+If you also need to package your project, you can use https://dashblocks.org/packager-legacy/.
 
 ## Brief technical overview {#technical-overview}
 

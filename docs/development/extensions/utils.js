@@ -17,9 +17,9 @@ export const ExtensionCode = ({title, children}) => {
               href={
                 title.startsWith('unsandboxed/') ? (
                   // TODO: Add docs examples to DashBlocks/extensions
-                  `https://dashblocks.github.io/editor.html?extension=https://dashblocks.github.io/tw-extensions/docs-examples/${title}.js`
+                  `https://dashblocks.org/editor.html?extension=https://dashblocks.org/tw-extensions/docs-examples/${title}.js`
                 ) : (
-                  `https://dashblocks.github.io/editor.html?extension=https://dashblocks.github.io/docs/example-extensions/${title}.js`
+                  `https://dashblocks.org/editor.html?extension=https://dashblocks.org/docs/example-extensions/${title}.js`
                 )
               }
             >

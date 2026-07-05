@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 ## Short Answer {#short}
 
- * If you want to package/HTMLify a project, use https://dashblocks.github.io/packager/
+ * If you want to package/HTMLify a project, use https://dashblocks.org/packager/
  * If you want to convert Scratch projects to readable and editable JavaScript, use https://leopardjs.com/ instead of Dash
 
 ## Long Answer {#long}

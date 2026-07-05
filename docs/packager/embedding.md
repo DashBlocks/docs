@@ -7,7 +7,7 @@ sidebar_label: Embedding
 # Embedding the packager
 
 :::info
-This page is about the [Dash Packager](https://dashblocks.github.io/packager/). If you just want an easy way to embed a Scratch project into a website, see [the other embedding page](/embedding).
+This page is about the [Dash Packager](https://dashblocks.org/packager/). If you just want an easy way to embed a Scratch project into a website, see [the other embedding page](/embedding).
 :::
 
 You can embed the output of the Dash Packager into another website:
