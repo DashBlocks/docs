@@ -13,7 +13,7 @@ module.exports = {
       tagName: 'meta',
       attributes: {
         name: 'algolia-site-verification',
-        content: 'FC7B432B964EB56C',
+        content: '52E4E087ED11DAC5',
       },
     },
   ],
