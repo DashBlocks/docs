@@ -45,9 +45,9 @@ module.exports = {
     },
     algolia: {
       // This is all supposed to be public
-      appId: 'C3D5A9N0XC',
-      apiKey: 'cd65b6987bef453d2b4fede10d6e50bc',
-      indexName: 'dashblocks_org_c3d5a9n0xc_pages',
+      appId: 'RGUMCW4PYO',
+      apiKey: '6d7c492018c182ea56dbdcc20f5450d7',
+      indexName: '',
     },
     colorMode: {
       respectPrefersColorScheme: true,
