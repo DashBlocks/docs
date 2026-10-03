@@ -13,7 +13,7 @@ module.exports = {
       tagName: 'meta',
       attributes: {
         name: 'algolia-site-verification',
-        content: '9975DC2323356DF8',
+        content: 'FC7B432B964EB56C',
       },
     },
   ],
@@ -45,9 +45,9 @@ module.exports = {
     },
     algolia: {
       // This is all supposed to be public
-      appId: '63CQ0IJW9T',
-      apiKey: '0e0a2613717b73dfbcfed6c8a549384b',
-      indexName: 'dashblocks_github_io_63cq0ijw9t_pages',
+      appId: 'C3D5A9N0XC',
+      apiKey: 'cd65b6987bef453d2b4fede10d6e50bc',
+      indexName: 'dashblocks_org',
     },
     colorMode: {
       respectPrefersColorScheme: true,
