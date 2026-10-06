@@ -47,7 +47,7 @@ module.exports = {
       // This is all supposed to be public
       appId: 'RGUMCW4PYO',
       apiKey: '6d7c492018c182ea56dbdcc20f5450d7',
-      indexName: '',
+      indexName: 'Dash Documentation',
     },
     colorMode: {
       respectPrefersColorScheme: true,
